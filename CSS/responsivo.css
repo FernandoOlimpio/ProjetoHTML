@@ -1,0 +1,32 @@
+@media screen and (max-width:600px) { /*O uso de consultas de mídia é uma técnica popular
+	para fornecer uma folha de estilo personalizada para desktops, laptops, tablets e 
+	telefones celulares (como telefones iPhone e Android).*/
+	body{
+		background-color: #5E37DA;
+        
+	}
+
+  
+	
+}
+
+@media screen and (min-width:800px) {
+	body{
+		background-color: #3566D8;
+	}
+
+   
+    
+	
+}
+
+@media screen and (min-width:1200px) {
+
+	* {
+		box-sizing: border-box; /* A box-sizingpropriedade nos permite 
+		incluir o preenchimento e a borda na largura e altura total de um elemento.
+
+		Se você definir box-sizing: border-box;um elemento, o preenchimento
+		e a borda serão incluídos na largura e na altura:*/
+	  }
+}
