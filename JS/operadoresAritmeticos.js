@@ -10,3 +10,4 @@ freteResultado.textContent= frete;
 
 var totalResultado= document.getElementById('totalValor');
 totalResultado.textContent= total;
+
